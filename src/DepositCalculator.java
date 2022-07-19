@@ -17,7 +17,7 @@ public class DepositCalculator {
         return Math.round(value * scale) / scale;
     }
 
-    void calculate() {
+    void calculateYearPercent() {
         int period;
         int action;
         Scanner scanner = new Scanner(System.in);
@@ -42,6 +42,6 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator().calculate();
+        new DepositCalculator().calculateYearPercent();
     }
 }
