@@ -22,11 +22,11 @@ public class DepositCalculator {
         int action;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите сумму вклада в рублях:") ;
+        System.out.println("Введите сумму вклада в рублях:");
 
         int amount = scanner.nextInt();
 
-        System.out.println("Введите срок вклада в годах:") ;
+        System.out.println("Введите срок вклада в годах:");
         period = scanner.nextInt();
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = scanner.nextInt();
